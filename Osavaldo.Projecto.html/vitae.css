@@ -1,0 +1,111 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: auto;
+    background: rgb(215, 212, 212);
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background: black;
+    position: absolute;
+    top: 0;
+    z-index: 444;
+}
+ul {
+    text-align: center;
+    margin-top: 15px;
+}
+a {
+    color: white;
+    text-decoration:none;
+    padding-left: 75px;
+    padding-top: 15px;
+}
+aside{
+    position: absolute;
+    width: 100%;
+    height: 40vh;
+}
+#Pricipal{
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+    color: rgb(212, 208, 208);
+    margin-top: 50px;
+    background: rgb(0, 0, 0);
+    float: left;
+}
+h1{
+    font-size: 30px;
+    margin-top: 20px;
+}
+#cv{
+    margin-top: 100px;
+    background: rgb(216, 215, 215);
+    height: 500px;
+    width: 100%;
+    float: left;
+    opacity: 1;
+}
+
+table{
+    margin-top: 25px;
+    width: 100%;
+    background: rgb(254, 251, 251);
+    color: rgb(11, 10, 10);
+    border: 1px solid rgb(16, 15, 15);
+}
+tr{
+    width: 100%;
+
+}
+th{
+    width: 100%;
+    padding-bottom: 20px;
+}
+td{
+    border: 1px solid rgb(12, 11, 11);
+    color: rgb(243, 239, 239);
+    width: 48%;
+    float: left;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 10px;
+}
+#img{
+    margin-top: 50px;
+    position: absolute;
+    width: 100%;
+    height: 93vh;
+}
+.img{
+    background-size:cover;
+    width: 100%;
+    height: 93vh;
+    opacity: 0;
+}
+
+#whatsapp{
+   z-index: 1;
+    width: 50px;
+    height: auto;
+    margin-top: 600px;
+    margin-left: 1350px;
+
+}
+#cem{
+    width: 99.2%;
+}
+table{
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    background-image:url(web.jpg);
+}

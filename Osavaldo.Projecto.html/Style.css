@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: black;
+
+}
+header {
+    width: 100%;
+    height: 50px;
+    background: black;
+    position: absolute;
+}
+ul {
+    text-align: center;
+    margin-top: 15px;
+}
+a {
+    color: white;
+    text-decoration:none;
+    padding-left: 75px;
+    padding-top: 15px;
+}
+#img{
+    width: 100%;
+    height: 95vh;
+}
+.img{
+    width: 100%;
+    height: 95vh;
+    background-size: cover;
+    z-index: -2;
+    position: absolute;
+    opacity: 0.3;
+}
+#principal{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 30%;
+    color: white;
+}
+footer{
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    width: 100%;
+    text-align: center;
+
+    box-shadow: 0px 0px 7px white;
+}
+h2{
+    text-align: center;
+    left: 40%;
+}
+button{
+    width: 100px;
+    animation: osvaldo 1s 1 alternate-reverse;
+    
+}
+@keyframes osvaldo{
+    0%{
+        width: 100px;
+    }
+    100%{
+        width: 1px;
+    }
+}
